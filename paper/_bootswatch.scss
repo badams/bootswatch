@@ -122,6 +122,14 @@ button {
     color: $gray;
 }
 
+
+h1 small, h1 .small, .h1 small, .h1 .small, h2 small, h2 .small, .h2 small, .h2 .small, h3 small, h3 .small, .h3 small, .h3 .small {
+    font-size: 50%;
+    color: #bbb;
+    display: block;
+    text-transform: uppercase;
+}
+
 // Tables =====================================================================
 
 .table-hover {

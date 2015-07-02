@@ -7556,6 +7556,13 @@ button {
   color: #666;
 }
 
+h1 small, h1 .small, .h1 small, .h1 .small, h2 small, h2 .small, .h2 small, .h2 .small, h3 small, h3 .small, .h3 small, .h3 .small {
+  font-size: 50%;
+  color: #bbb;
+  display: block;
+  text-transform: uppercase;
+}
+
 .table-hover > tbody > tr,
 .table-hover > tbody > tr > th,
 .table-hover > tbody > tr > td {
