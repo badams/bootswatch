@@ -383,8 +383,9 @@ input[type="checkbox"],
     box-shadow: none;
     border-color: $brand-warning;
   }
-  .form-control:focus + .input-group-addon {
+  .form-control:focus + .input-group-addon, .input-group-addon.focus {
       background-color: $brand-warning;
+      border-color:  $brand-warning;
       color: #ffffff;
   }
 }
@@ -396,8 +397,9 @@ input[type="checkbox"],
   .form-control:focus {
     border-color: $brand-danger;
   }
-  .form-control:focus + .input-group-addon {
+  .form-control:focus + .input-group-addon, .input-group-addon.focus {
       background-color: $brand-danger;
+      border-color:  $brand-danger;
       color: #ffffff;
   }
 }
@@ -409,9 +411,10 @@ input[type="checkbox"],
   .form-control:focus {
     border-color: $brand-success;
   }
-  .form-control:focus + .input-group-addon {
+  .form-control:focus + .input-group-addon, .input-group-addon.focus {
       background-color: $brand-success;
       color: #ffffff;
+      border-color:  $brand-success;
   }
 }
 

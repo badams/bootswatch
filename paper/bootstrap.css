@@ -7956,8 +7956,9 @@ input[type="checkbox"]:disabled:checked:after,
           box-shadow: none;
   border-color: #ff9800;
 }
-.has-warning .form-control:focus + .input-group-addon {
+.has-warning .form-control:focus + .input-group-addon, .has-warning .input-group-addon.focus {
   background-color: #ff9800;
+  border-color: #ff9800;
   color: #ffffff;
 }
 
@@ -7967,8 +7968,9 @@ input[type="checkbox"]:disabled:checked:after,
 .has-error .form-control:focus {
   border-color: #e51c23;
 }
-.has-error .form-control:focus + .input-group-addon {
+.has-error .form-control:focus + .input-group-addon, .has-error .input-group-addon.focus {
   background-color: #e51c23;
+  border-color: #e51c23;
   color: #ffffff;
 }
 
@@ -7978,9 +7980,10 @@ input[type="checkbox"]:disabled:checked:after,
 .has-success .form-control:focus {
   border-color: #4CAF50;
 }
-.has-success .form-control:focus + .input-group-addon {
+.has-success .form-control:focus + .input-group-addon, .has-success .input-group-addon.focus {
   background-color: #4CAF50;
   color: #ffffff;
+  border-color: #4CAF50;
 }
 
 .nav-tabs {
