@@ -7640,6 +7640,7 @@ input[type=number][readonly],
 [contenteditable].form-control[disabled],
 [contenteditable].form-control[readonly] {
   border-style: solid;
+  background-color: #eeeeee;
 }
 textarea.input-sm, .input-group-sm > textarea.form-control,
 .input-group-sm > textarea.input-group-addon,
@@ -7962,6 +7963,10 @@ input[type="checkbox"]:disabled:checked:after,
   color: #ffffff;
 }
 
+input.form-control[type="range"]::-moz-focus-outer {
+  border: 0 none;
+}
+
 .has-error input:not([type=checkbox]),
 .has-error .form-control,
 .has-error input:not([type=checkbox]):focus,
@@ -8122,6 +8127,15 @@ input[type="checkbox"]:disabled:checked:after,
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+
+.well .well {
+  background-color: #fff;
+  border: 2px solid #eeeeee;
+  border-radius: 5px;
+}
+.well .well legend {
+  font-size: 16px;
 }
 
 .panel {

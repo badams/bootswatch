@@ -390,6 +390,10 @@ input[type="checkbox"],
   }
 }
 
+input.form-control[type="range"]::-moz-focus-outer {
+    border: 0 none;
+}
+
 .has-error {
   input:not([type=checkbox]),
   .form-control,
@@ -588,6 +592,15 @@ input[type="checkbox"],
 .well {
   border-radius: 0;
   @include box-shadow(none);
+}
+
+.well .well {
+  background-color: #fff;
+  border: 2px solid $gray-lighter;
+  border-radius: 5px;
+  legend {
+    font-size: 16px;
+  }
 }
 
 .panel {
