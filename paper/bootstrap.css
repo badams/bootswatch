@@ -3184,7 +3184,7 @@ output {
   color: #ddd;
 }
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
-  background-color: #f9f9f9;
+  background-color: #eeeeee;
   opacity: 1;
 }
 .form-control[disabled], fieldset[disabled] .form-control {
@@ -7591,7 +7591,7 @@ input[type=number],
 [type=email].form-control,
 [type=tel].form-control,
 [contenteditable].form-control {
-  padding: 0.5em;
+  padding: 0 0.5em;
   border: 2px solid #ddd;
   border-radius: 5px;
   -webkit-appearance: none;
@@ -7640,7 +7640,6 @@ input[type=number][readonly],
 [contenteditable].form-control[disabled],
 [contenteditable].form-control[readonly] {
   border-style: solid;
-  background-color: #eeeeee;
 }
 textarea.input-sm, .input-group-sm > textarea.form-control,
 .input-group-sm > textarea.input-group-addon,
